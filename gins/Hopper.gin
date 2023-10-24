@@ -1,0 +1,10 @@
+# Copyright (C) 2020, 2023 Mitsubishi Electric Research Laboratories (MERL)
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+feature_extractor.name = "OFE"
+OFENet.total_units = 240
+OFENet.num_layers = 6
+OFENet.activation = @swish
+OFENet.block = "densenet"
+OFENet.batchnorm = True
